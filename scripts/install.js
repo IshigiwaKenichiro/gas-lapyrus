@@ -82,7 +82,7 @@ const env = ${JSON.stringify({ domain, basic, app, idField, apiToken }, null, '\
 
     console.log("**** done. ****");
 
-    console.log(`enjoy development =b`);
+    console.log(`enjoy developing =b`);
 
 
 })()
