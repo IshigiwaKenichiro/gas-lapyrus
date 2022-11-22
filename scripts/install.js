@@ -76,7 +76,7 @@ function write(fig) {
     fs.copyFileSync(path.join(__dirname, '..', '.files/main.test.js'), 'src/main.test.js');
     fs.writeFileSync('src/envs.js',
         `
-const env = ${JSON.stringify({ domain, basic, app, idField, apiToken }, null, '\t')}
+const envs = ${JSON.stringify({ domain, basic, app, idField, apiToken }, null, '\t')}
 `   );
 
 
